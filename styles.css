@@ -1,0 +1,188 @@
+@font-face {
+    font-family: Hanken;
+    src: url(./fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: hsl(221, 100%, 96%);
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    margin: 80px;
+    padding: 20px 0px 20px 70px;
+}
+
+p {
+    font-size: 18px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Hanken';
+}
+
+.nota-avaliacao {
+    font-size: 70px;
+    color: white;
+}
+
+.maximo-nota-avaliacao {
+    color: hsla(222, 100%, 96%, 0.527);
+}
+
+.quadros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0  auto;
+}
+
+.your-result {
+    background: linear-gradient(360deg, hsl(241, 81%, 54%) 0%, hsl(252, 100%, 67%) 100%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 550px;
+    position: relative;
+    left: 3%;
+}
+
+.title-youresult {
+    margin: 40px 0px 40px 0px;
+    color: hsla(222, 100%, 96%, 0.932);
+}
+
+.circle-your-result {
+    background: linear-gradient(360deg, hsla(256, 72%, 46%, 1) 0%, hsla(256, 72%, 46%, 1) 100%);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.avaliacao {
+    margin: 30px 0px 30px 0px;
+    color: white;
+}
+
+.descricao {
+    text-align: center;
+    color: hsla(222, 100%, 96%, 0.822);
+}
+
+
+.summary {
+    background-color: hsla(0, 0%, 100%, 0.945);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 360px;
+    height: 550px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.summary-interior {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.title-summary {
+    margin: 20px 195px 0px 0px;
+}
+
+.atributos {
+    position: relative;
+    left: 4%;
+}
+
+.reaction {
+    display: flex;
+    background-color: hsla(0, 100%, 67%, 0.25);
+    height: 80px;
+    width: 300px;
+    margin: 20px;
+    align-items: center;
+    border-radius: 12px;
+    /* justify-content: space-between; */
+}
+
+.raio {
+    margin: 0px 1px 0px 10px;
+}
+
+.memory {
+    display: flex;
+    background-color: hsla(39, 100%, 56%, 0.3);
+    height: 80px;
+    width: 300px;
+    margin: 20px;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.verbal {
+    display: flex;
+    background-color: hsl(166, 100%, 37%, 0.25);
+    height: 80px;
+    width: 300px;
+    margin: 20px;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.visual {
+    display: flex;
+    background-color: hsla(234, 85%, 45%, 0.25);
+    height: 80px;
+    width: 300px;
+    margin: 20px;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.botao {
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    text-decoration: none;
+    border: 0px;
+    font-size: 18px;
+    font-family: "Hanken";
+    transition: background-color 0.3s ease-in-out;
+}
+
+.botao-container {
+    background-color: hsl(224, 30%, 27%);
+    height: 60px;
+    width: 270px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.botao-container:hover {
+    cursor: pointer;
+    background: linear-gradient(360deg, hsl(241, 81%, 54%) 0%, hsl(252, 100%, 67%) 100%);
+}
+
+.botao:hover {
+    background: linear-gradient(360deg, hsl(241, 81%, 54%) 0%, hsl(252, 100%, 67%) 100%);
+}
